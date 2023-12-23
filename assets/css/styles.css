@@ -434,6 +434,11 @@ body.dark-theme {
   margin-bottom: .75rem;
 }
 
+.projects__content__ui {
+  /* grid-template-columns: repeat(2, 332px); */
+  grid-template-columns: repeat(2, auto);
+}
+
 .projects__button {
   padding: .5rem;
 }
@@ -663,6 +668,11 @@ body.dark-theme {
     grid-template-columns: repeat(2, auto);
   }
 
+  .projects__content__ui {
+    /* grid-template-columns: repeat(2, 332px); */
+    grid-template-columns: repeat(3, auto);
+  }
+
   .header__info-group img {
     width: 64px;
   }
@@ -677,8 +687,8 @@ body.dark-theme {
   }
 
   .container__body {
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 
