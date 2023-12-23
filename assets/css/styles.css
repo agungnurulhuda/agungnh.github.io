@@ -525,7 +525,22 @@ body.dark-theme {
   font-size: var(--smaller-font-size);
 }
 
+/*=============== FOOTER ===============*/
+.footer__social {
+  display: flex;
+  justify-content: center;
+  column-gap: .75rem;
+}
 
+.footer__social-link {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  transition: .3s;
+}
+
+.footer__social-link:hover {
+  color: var(--first-color);
+}
 
 /* Hide and show projects & skills */
 .filters [data-content] {
@@ -552,6 +567,13 @@ body.dark-theme {
   text-align: center;
   font-size: var(--smaller-font-size);
   color: var(--text-color-light);
+}
+
+.footer__profession {
+  font-size: var(--small-font-size);
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 1rem;
 }
 
 /*=============== SCROLL BAR ===============*/
