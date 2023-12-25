@@ -350,6 +350,18 @@ body.dark-theme {
   column-gap: .5rem;
 }
 
+.filters__1 {
+  background-color: transparent;
+}
+
+.filters__2 {
+  background-color: transparent;
+}
+
+.filters__3 {
+  background-color: transparent;
+}
+
 .filters__content__skills {
   margin: 3rem 0 1rem;
   /* background-color: var(--text-color-lighten); */
