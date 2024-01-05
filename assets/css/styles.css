@@ -685,6 +685,10 @@ body.dark-theme {
     grid-template-columns: repeat(3, auto);
   }
 
+  main .collection {
+    grid-template-columns: repeat(2, auto);
+  }
+
   .header__info-group img {
     width: 64px;
   }
